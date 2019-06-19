@@ -17,19 +17,19 @@ const appRoutes: Routes = [
         component: StartComponent
     },
     {
-        path: 'join',
+        path: 'start/join',
         component: JoinComponent
     },
     {
-        path: 'flee',
+        path: 'start/flee',
         component: FleeComponent
     },
     {
-        path: 'net',
+        path: 'start/join/net',
         component: NetComponent
     },
     {
-        path: 'trident',
+        path: 'start/join/trident',
         component: TridentComponent
     }
 
