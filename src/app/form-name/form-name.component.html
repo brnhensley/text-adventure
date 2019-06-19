@@ -1,3 +1,8 @@
-<p>
-  form-name works!
-</p>
+<div>
+  <form>
+
+    <input #name placeholder="Enter your name">
+    <button (click)='newPlayer(name.value)'>Start!</button>
+
+  </form>
+</div>
