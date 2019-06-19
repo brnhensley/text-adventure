@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormNameComponent } from '../form-name/form-name.component';
+import { Player } from '../player.model';
 
 
 @Component({
@@ -12,5 +14,6 @@ export class StartComponent implements OnInit {
 
   ngOnInit() {
   }
+
 
 }
