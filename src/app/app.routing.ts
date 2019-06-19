@@ -4,6 +4,8 @@ import { StartComponent } from './start/start.component';
 import { FormNameComponent } from './form-name/form-name.component';
 import { JoinComponent } from './join/join.component';
 import { FleeComponent } from './flee/flee.component';
+import { NetComponent } from './net/net.component';
+import { TridentComponent } from './trident/trident.component';
 
 const appRoutes: Routes = [
     {
@@ -21,6 +23,14 @@ const appRoutes: Routes = [
     {
         path: 'flee',
         component: FleeComponent
+    },
+    {
+        path: 'net',
+        component: NetComponent
+    },
+    {
+        path: 'trident',
+        component: TridentComponent
     }
 
 ];

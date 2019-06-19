@@ -8,6 +8,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { JoinComponent } from './join/join.component';
 import { FleeComponent } from './flee/flee.component';
+import { TridentComponent } from './trident/trident.component';
+import { NetComponent } from './net/net.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FleeComponent } from './flee/flee.component';
     FormNameComponent,
     StartComponent,
     JoinComponent,
-    FleeComponent
+    FleeComponent,
+    TridentComponent,
+    NetComponent
   ],
   imports: [
     BrowserModule,
